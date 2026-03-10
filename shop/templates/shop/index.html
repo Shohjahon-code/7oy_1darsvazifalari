@@ -1,1 +1,15 @@
 {% extends 'base.html' %}
+
+
+
+
+{% block main%}
+    <!-- Categories -->
+    {% include 'components/_categories.html' %}
+
+    <!-- Menu / Products -->
+    {% include 'components/_menu_products.html' %}
+
+    <!-- App Promo -->
+    {% include 'components/_app_promo.html' %}
+{% endblock main %}

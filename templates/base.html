@@ -14,17 +14,14 @@
     <!-- Navbar -->
     {% include 'components/_navbar.html' %}
 
+
     <!-- Hero Section -->
     {% include 'components/_hero.html' %}
 
-    <!-- Categories -->
-    {% include 'components/_categories.html' %}
 
-    <!-- Menu / Products -->
-    {% include 'components/_menu_products.html' %}
-
-    <!-- App Promo -->
-    {% include 'components/_app_promo.html' %}
+    {% block main %}
+    hello world
+    {% endblock main %}
 
     <!-- Footer -->
     {% include 'layout/_footer.html' %}
